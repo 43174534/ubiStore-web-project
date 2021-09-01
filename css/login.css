@@ -1,0 +1,311 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+
+}
+body{
+    background-color:#e5e8f0 ;
+    height: 100%;
+}
+header{  
+    width: 100%;
+    height: 100%;
+}
+.header-all{
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+
+.header-main{
+    width: 100%;
+    height: 100%;
+}
+
+.header-main-box{
+    display: flex;
+    justify-content:space-around;
+    flex-grow:1;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+
+
+.welcome-word{
+    width: 100vw;
+    height: 5%;
+    display: flex;
+    justify-content:space-around;
+    border-bottom: solid 1px #8181813d;
+}
+
+.head-serch{
+    margin-top: 3%;
+    margin-bottom: 2%;
+    width: 100%;
+    height: 14vw;
+    display: flex;
+}
+.head-serch input{
+    outline: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 10vw;
+    text-align: center;
+    border-color: #008aa4;
+}
+
+
+.see-more{
+    font-size: 1vw;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: #929db6;
+}
+.see-more-detail{
+    margin: 0%;
+    width: 85%;
+    height: 100%; 
+    margin-bottom: 5%;  
+}
+.footer-icobar{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1vw;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+.footer-icobar-discont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+    border-bottom: 1vw;
+}
+.footer-icobar-gift{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+.footer-customer-service{
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-icobar li svg{
+    width: 33%;
+    
+}
+
+.footer-contact{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    background-color:#ffff;
+    padding-top: 10%;
+    border-top: solid 1px;
+    border-color: #e5e8f0;
+    color: #008aa4;
+
+}
+.footer-links{
+    display: flex;
+    padding-right: 0;
+    border-right: none;
+    width: 80%;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0%;
+}
+.footer-section{
+    display: flex;
+    width: 100%;
+}
+.content-asset{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: solid 1px;
+    margin-bottom: 2%;
+}
+.imghelp{
+    border-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+
+.imghelp a{
+    text-decoration: none;
+    padding: 3vw 9vw;
+    line-height: inherit;
+    border: 1px solid #35c1cf;
+    color: #008aa4;
+    background: transparent;
+    border-radius: 10vw;
+
+}
+
+.footer-social{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.footer-legal-wrapper{
+    display: flex;
+    background-color:#ffff;
+    width: 100%;
+    justify-content: center;
+}
+.footer-legal{
+    display: flex;
+    width: 100%;
+}
+.footer-last{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15%;
+    text-align: center;
+    border:none;
+    line-height: 1.6;
+}
+.terms{
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.terms a{
+    color: #008aa4;
+    padding: 0 2%;
+    letter-spacing: 1px;
+    text-decoration:none;
+}
+
+.terms .terms-2{
+    border-right: 1px solid #008aa4;   
+}
+
+.background-imgs{
+    width: 100%;
+    height: 100%;  
+    
+}
+
+.loginiframe{
+    width: 100%;
+    height: 155vw;   
+    background-image: url("../images/Account_back.jpg"); 
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    margin-bottom: 5%;
+    display: flex;
+    padding-top: 50%;
+    justify-content: center;
+}
+
+.loginiframe-detail{
+    width: 90%;
+    height: 96%;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ubi-logo{
+    width: 90%;
+    height: 25%;
+    background-color: #252D3A;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.logo{
+    background-image: url("../images/ubilogo-2f7842(2).svg");
+    width: 60%;
+    height: 60%;
+    display: block;
+    background-repeat: no-repeat;
+}
+.content{
+    color: #252D3A;
+    width: 80%;
+}
+.content h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content h2 a{
+    color: #252D3A;
+    text-decoration:none;
+    font-weight: normal;
+    font-size: large;
+}
+
+.email-address i{
+    width: 7%;
+    height: 100%;
+    background-image: url("../images/email-a11ea1.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 1%;
+    top: 20%;
+    
+}
+
+.email-address{
+    width: 80%;
+    display: flex;
+    position: relative;
+    height: 5%;
+    margin-top: 12%;
+    justify-content: center;
+    border-bottom: red solid;
+    margin-bottom: 5%;
+}
+.email-address input{
+    outline:none;
+    width: 80%;
+    height: 80%;
+    border: none;  
+}
+.email-address .passwd-img{
+    left: -1%;
+    top: 10%;
+    background-image: url("../images/passwordIcon-ad6381.svg");
+}
+.remember-box{
+    width: 80%;
+    display: flex;
+
+}
+
